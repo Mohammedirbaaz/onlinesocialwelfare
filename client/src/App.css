@@ -1,0 +1,372 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color:#BDFFF3;
+}
+.titlearea{
+  position: sticky;
+  top:20px;
+  left: 40%;
+  font-size: 2em;
+  font-weight: lighter;
+  color:white;
+}
+.loggedarea {
+  float: right;
+  margin: 1%;
+}
+.containerlogin{
+  position: relative;
+  width: 25em;
+  /* height: 55vh; */
+  top: 6em;
+  left: 30em;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 7px;
+}
+.containterloginlogintextpart{
+  position: relative;
+  background-color: #a0d2eb;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.containterloginlogintextpart2{
+position: relative;
+text-align: center;
+font-size: large;
+padding: 5px;
+}
+.containerlogininput{
+  position: relative;
+  margin: 20px;
+  display: block;
+  font-size: medium;
+  width:60%;
+  margin-left: 15%;
+  height: 4vh;
+}
+.submit2{
+  width: 20%;
+  font-size: small;
+  color: white;
+  background-color: #51596C;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 35%;
+}
+.containerimagehandler{
+  position: relative;
+  width: 40%;
+  height: 15vh;
+  left: 25%;
+}
+.image2ndhandler{
+  width: 30%;
+  height: 15vh;
+  left:30%;
+}
+.registerlink{
+  position: relative;
+  top:30vh;
+  left: 40vw;
+  color: white;
+}
+.containerloginverify{
+position: relative;
+left: 80%;
+top:-7vh;
+background-color: #51596C;
+padding: 1%;
+color: white;
+border:white 1px 1px;
+border-radius: 5px;
+margin-bottom: 0px;
+}
+.containerloginverify:hover{
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.towninput{
+  margin-top: -5%;
+  width: 62%;
+}
+.logindirector{
+  position: absolute;
+  top:20em;
+  left:45%;
+  width: 12%;
+  height:4%;
+  outline: none;
+  border-radius: 20mm;
+  border: none;
+  color: white;
+  background-color: #51596C;
+}
+.logoutdirector{
+  position: sticky;
+  top:30px;
+  float: right;
+  margin: 20px;
+  background-color: teal;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 5px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headerpart{
+  position: sticky;
+  top:0px;
+  width: 85.4em;
+  height: 5em;
+  background-color: #51596C;
+  z-index: 1;
+}
+.cardview{
+  position: relative;
+  top: 10em;
+  left: 10em;
+  width: 250px;
+  height: 250px;
+  background-color: #51596C;
+  float: left;
+  margin: 40px;
+  transition: width 0.2s, height 0.2s;
+}
+.item1{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item1child{
+  position: relative;
+  left:30%;
+  top:40px;
+}
+.item2{
+  background-color: gray;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  margin: 5px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardview:hover{
+cursor: pointer;
+
+height: 300px;
+}
+.item2child{
+  color: white;
+  text-decoration: none;
+  padding: 120px 30px;
+}
+.sidenote{
+  position: sticky;
+  top: 250px;
+  float:left;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: wheat;
+  padding: 20px;
+  font-size: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 5px solid #51596C;
+  border-radius: 20px;
+}
+.tweetareafirst{
+ position: relative;
+ top: 50px;
+ margin-left: 400px;
+}
+.inputss{
+  position: relative;
+  display: block;
+  margin: 30px;
+  width: 50%;
+  height: 30px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputss2{
+  height: 200px;
+  font-weight: bolder;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputss3{
+  width: 10%;
+  margin-left: 20%;
+  height: 30px;
+  background-color: teal;
+  color: white;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputssfile{
+  box-shadow: none;
+}
+.feedarea{
+  position: relative;
+  width: 900px;
+  height:550px;
+  background-color:white;
+ 
+  margin: 80px 200px 0px 220px;
+}
+.subbodyforfeed{
+  position: relative;
+  width: 100%;
+  height: 4000px;
+}
+.typesoffeedarea{
+  position: relative;
+  top: 40px;
+  width: 45%;
+  height: 7%;
+  background-color: white;
+  left: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btns{
+  position: relative;
+  margin: 10px;
+  float: left;
+  width: 100px;
+  height: 25px;
+  background-color: teal;
+  outline: none;
+  border: none;
+  color: white;
+}
+.btns:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.subpartfeedarea{
+  position: relative;
+  top:20px;
+  left: 20px;
+  margin: 20px;
+}
+.imgforfeed{
+  position: relative;
+  top: 20px;
+  left:10px;
+  width: 180px;
+  height: 180px;
+}
+.likereportdiv{
+  
+  position: relative;
+  width: 100%;
+  height: 9.5%;
+}
+.btnforlikereport{
+  position: relative;
+  float: left;
+  height: 70%;
+  width: 15%;
+  margin: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: teal;
+  outline: none;
+  border: none;
+  color: white;
+}
+.btnforlikereport2{
+  margin-left: 25%;
+}
+.likesdisplay{
+  position: relative;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+.popupsforreport{
+  position: sticky;
+  top: 10em;
+  left: 30%;
+  z-index: 10;
+  width: 40%;
+  height: 370px;
+  background-color: wheat;
+  display: none;
+  border-radius: 20px;
+
+}
+.typesofcategory{
+  position: relative;
+  left: 5%;
+  width: 80%;
+  height:30px;
+  margin: 20px 20px;
+  border: none;
+  outline: none;
+}
+.btnsforreport{
+  position: relative;
+  width: 20%;
+  height: 5vh;
+  background-color: teal;
+  outline: none;
+  border: none;
+  color: white;
+  float: left;
+  margin: 10px;
+  
+}
+.btncancel{
+  margin-left: 25%;
+}
+.textareapart{
+  height: 30vh;
+}
+.notsupportedtext{
+  position: relative;
+  top: 250px;
+  left:550px;
+}
+.mydetails{
+  position: relative;
+  top: 5em;
+  left:450px;
+  width: 500px;
+  height: 300px;
+  padding-left: 40px;
+  padding: 30px;
+  background-color: #51596C;
+  color: white;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buttonsforsupport{
+  position: relative;
+  top:100px;
+  left:630px;
+  background-color: teal;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+.btnsubpart{
+  color: white;
+  text-decoration: none;
+}
+.buttonsforsupport:hover{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
